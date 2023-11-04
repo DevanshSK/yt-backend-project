@@ -1,12 +1,21 @@
 {
   "name": "yt-backend-project",
   "version": "1.0.0",
-  "description": "",
+  "description": "A backend for a youtube clone application",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js"
   },
-  "keywords": [],
+  "keywords": [
+    "javascript",
+    "express",
+    "mongo",
+    "youtube"
+  ],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
 }
