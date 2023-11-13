@@ -11,3 +11,7 @@
 9. JWT is a bearer token. Here data is granted to the token bearer.
 10. For authentication, we use both sessions and cookies.
 11. Create a method for generating a `refresh token` in user schema
+
+### File handling and cloudinary
+
+1. There are 2 packages for file upload `express-fileupload` and `multer`
