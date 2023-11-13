@@ -1,3 +1,6 @@
+/* The code is defining a user schema for a MongoDB database using Mongoose. It imports necessary
+modules such as `mongoose`, `Schema` from `mongoose`, `jwt` from `jsonwebtoken`, and `bcrypt` for
+password encryption. */
 import mongoose, { Schema } from "mongoose";
 import jwt from "jsonwebtoken";
 import bcrypt from "bcrypt";

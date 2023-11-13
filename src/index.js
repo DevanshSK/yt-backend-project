@@ -1,4 +1,5 @@
 // require("dotenv").config({ path: "./env" });
+/* The code is importing the `dotenv` and `connectDB` modules from their respective files. */
 import dotenv from "dotenv";
 import connectDB from "./db/index.js";
 
@@ -7,6 +8,8 @@ dotenv.config({
 });
 
 // Here an async function returns a promise, so we handle it accordingly.
+/* The code `connectDB().then(...).catch(...)` is establishing a connection to the MongoDB database
+using the `connectDB` function. */
 connectDB()
   .then(() => {
     const port = process.env.PORT || 8000;

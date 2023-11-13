@@ -1,3 +1,4 @@
+/* This code is setting up a basic Express.js server with some middleware configurations. */
 import express from "express";
 import cors from "cors";
 import cookieParser from "cookie-parser";
